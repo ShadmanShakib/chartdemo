@@ -3,7 +3,8 @@ import {useSelector} from 'react-redux';
 import MenuItem from './MenuItem';
 import {ReactComponent as HomeIcon} from '../../icons/home.svg';
 import {ReactComponent as ApexChart} from '../../icons/apexchart.svg';
-import {ReactComponent as ReChartIcon} from '../../icons/pie-chart.svg'
+import {ReactComponent as ReChartIcon} from '../../icons/pie-chart.svg';
+import {ReactComponent as ChartjsLogo} from '../../icons/chartjs-logo.svg'
 function Sidebar() {
     const isMenuOpen=useSelector((state:any)=>state.layout.sidebar)
     return (
@@ -12,6 +13,7 @@ function Sidebar() {
             <MenuItem link="/" children={<HomeIcon className="h-6 w-6 fill-current"/>} name="Home"/>
             <MenuItem link="/linecharts" children={<ApexChart className="h-6 w-6 fill-current"/>} name="ApexCharts"/>
             <MenuItem link="/recharts" children={<ReChartIcon className="h-6 w-6 fill-current"/>} name="Rechart"/>
+            <MenuItem link="/chartjs" children={<ChartjsLogo className="h-6 w-6 fill-current"/>} name="Chartjs"/>
         </div>
         </React.Fragment>
     )
