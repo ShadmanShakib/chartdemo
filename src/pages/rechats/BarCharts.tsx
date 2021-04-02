@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts'
+import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts'
 import { data } from './data'
 
 function BarCharts() {
@@ -10,6 +10,7 @@ function BarCharts() {
                 <XAxis dataKey='name'/>
                 <YAxis/>
                 <Tooltip/>
+                <Legend/>
                 <Bar dataKey='value 1' fill="#8884d8"/>
                 <Bar dataKey="value 2" fill="red"/>
             </BarChart>
