@@ -1,6 +1,5 @@
 import React from 'react'
-import { RouteComponentProps } from '@reach/router'; 
-import Chart from 'react-apexcharts'   
+import { RouteComponentProps } from '@reach/router';  
 
 
 
