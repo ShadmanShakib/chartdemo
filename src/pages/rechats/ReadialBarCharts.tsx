@@ -50,7 +50,7 @@ function ReadialBarCharts() {
         <div className='bg-white p-10 shadow-lg rounded-md'>
             <RadialBarChart 
               width={500} 
-               height={450} 
+               height={350} 
                innerRadius="10%" 
                outerRadius="80%" 
                data={data} 

@@ -5,7 +5,7 @@ import { data } from './data'
 function RadarCharts() {
     return (
         <div className="p-10 bg-white rounded-md shadow-lg">
-            <RadarChart outerRadius={90} width={500} height={250} data={data}>
+            <RadarChart outerRadius={90} width={500} height={350} data={data}>
                 <PolarGrid />
                 <PolarAngleAxis dataKey="name" />
                 <PolarRadiusAxis angle={30} domain={[0, 150]} />

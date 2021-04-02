@@ -15,7 +15,7 @@ import FunnelCharts from './FunnelCharts';
 function Recharts(props:RouteComponentProps) {
     return (
         <React.Fragment>
-            <div className="bg-gray-200 ">
+            <div className="bg-gray-200 pb-20 ">
             <h1 className="py-5 px-10 font-semibold text-2xl">Recharts</h1>
             <div className="grid justify-items-center xl:grid-cols-2 gap-y-10">
            <AreaCharts/> 

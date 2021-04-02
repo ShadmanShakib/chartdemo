@@ -5,7 +5,7 @@ import { data } from './data'
 function Composed() {
     return (
         <div className="bg-white p-10 rounded-md shadow-lg">
-           <ComposedChart width={500} height={250} data={data}>
+           <ComposedChart width={500} height={350} data={data}>
   <XAxis dataKey="name" />
   <YAxis />
   <Tooltip />

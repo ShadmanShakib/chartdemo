@@ -72,7 +72,7 @@ const data01 = [
 function ScatterCharts() {
     return (
         <div className="bg-white p-10 shadow-lg rounded-md">
-              <ScatterChart width={500} height={450}
+              <ScatterChart width={500} height={350}
     margin={{ top: 20, right: 20, bottom: 10, left: 10 }}>
     <CartesianGrid strokeDasharray="3 3" />
     <XAxis dataKey="x" name="stature" unit="cm" />

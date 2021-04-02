@@ -5,7 +5,7 @@ import { data } from './data'
 function BarCharts() {
     return (
         <div className="bg-white p-10 rounded-md shadow-lg">
-            <BarChart width={500} height={250} data={data}>
+            <BarChart width={500} height={350} data={data}>
                 <CartesianGrid strokeDasharray="4 4"/>
                 <XAxis dataKey='name'/>
                 <YAxis/>

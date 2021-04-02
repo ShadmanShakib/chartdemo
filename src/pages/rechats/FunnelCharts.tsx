@@ -32,7 +32,7 @@ const data = [
 function FunnelCharts() {
     return (
         <div className="bg-white p-10 rounded-md shadow-lg">
-            <FunnelChart width={500} height={250}>
+            <FunnelChart width={500} height={350}>
               <Tooltip />
              <Funnel
               dataKey="value"
